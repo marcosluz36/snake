@@ -1,0 +1,15 @@
+.score {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  padding-top: 6px;
+  font-size: small;
+  display: flex;
+  color: var(--grey);
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 30px;
+  width: calc(100% - 20px);
+  border-bottom: 1px solid var(--grey);
+
+}

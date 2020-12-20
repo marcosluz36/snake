@@ -1,0 +1,33 @@
+.part { 
+  width: 5px;
+  height: 5px;
+  border-radius: 3px;
+  position: absolute;
+  transition: 300ms;
+  transform: rotate(45deg);
+}
+
+.p0 {
+  background: var(--blue);
+}
+
+.p1 {
+  background: var(--green);
+}
+
+.p2 {
+  background: var(--yellow);
+}
+
+.p3 {
+  background: var(--red);
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
